@@ -5,6 +5,15 @@
  * Honcharov Aleksandr Stylezed. Website - https://wd.honcharovs.com
  */
 
+
+.ph-bg-cont {
+    position: relative;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
 .btn-default,
 .btn-primary,
 .btn-success,

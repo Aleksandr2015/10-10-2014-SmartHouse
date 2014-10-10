@@ -18,30 +18,15 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Умный дом</a>
-                </div>
-
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Главная</a></li>                        
-                    </ul>
-                </div><!--.nav-collapse -->
-            </div>
-        </nav>
+    
+        <!-- Navigation primary / Start -->
+        <?php include(TEMPLATEPATH . '/navigation-primary.php'); ?>
+        <!-- Navigation primary / End -->
 
         <div class="container page-home">
             <div class="row">
-                <div class="col-xs-12">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri();?>/img/1170x900_page-home-bg.png" alt="">
+                <div class="col-xs-12 ph-bg-cont">
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri();?>/img/1170x820_page-home-bg.png" alt="">
                 </div>
             </div>
         </div>
