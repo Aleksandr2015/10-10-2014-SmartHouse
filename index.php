@@ -38,8 +38,12 @@
         </div>
     </nav>
 
-    <div class="container">
-        
+    <div class="container page-home">
+        <div class="row">
+            <div class="col-xs-12">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri();?>/img/1170x900_page-home-bg.png" alt="">
+            </div>
+        </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
