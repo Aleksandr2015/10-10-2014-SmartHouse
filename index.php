@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="<?php bloginfo('charset');?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Умный дом</title>
+    <meta name="description" content="<?php bloginfo('description');?>">    
+    <title><?php the_title(); ?> | <?php bloginfo('name');?></title>
     <link rel="shortcut icon" href="">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/bootstrap.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/bootstrap-theme.css">
 
     <!--[if IE]>
         <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -44,6 +43,6 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="<?php echo get_template_directory_uri();?>/js/bootstrap.js"></script>
 </body>
 </html>
