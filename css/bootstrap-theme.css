@@ -5,6 +5,8 @@
  * Honcharov Aleksandr Stylezed. Website - https://wd.honcharovs.com
  */
 
+/* Homepage bg and pins / start */
+
 
 .ph-bg-cont {
     position: relative;
@@ -43,6 +45,57 @@
     top: 47%; 
 }
 
+.weather-stations {
+    left: 4%;
+    top: 52%; 
+}
+
+.condicioners-and-ventilations {
+    left: 34%;
+    top: 36%; 
+}
+
+.fluger {
+    left: 48%;
+    top: 9%; 
+}
+
+.electric-rollets-and-shutters {
+    left: 40%;
+    top: 35%;
+}
+
+.multimedia {
+    left: 57%;
+    top: 36%;
+}
+
+.fountains-and-ponds {
+    left: 77%;
+    top: 48%;
+}
+
+.ponds-and-controls {
+    left: 87%;
+    top: 65%;
+}
+
+.watering-and-irrigation-controls {
+    left: 79%;
+    top: 58%;
+}
+
+.canalization {
+    left: 75%;
+    top: 63%;
+}
+
+.water-treatment-system {
+    left: 94%;
+    top: 71%;
+}
+
+/* Homepage bg and pins / end */
 
 .navbar {
     margin-bottom: 0;
