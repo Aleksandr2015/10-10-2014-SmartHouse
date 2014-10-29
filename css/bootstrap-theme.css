@@ -28,6 +28,12 @@
         text-indent: -9999999px;
     }
 
+    /* change tooltip width by add some class to tooltip wrapper */
+    .wide-tooltip .tooltip-inner {
+        width: 230px;
+        max-width: 230px;
+    }
+
         .sun-batteries{
             left: 40%;
             top: 25%;    
@@ -136,7 +142,7 @@
         .light-sensors {
             left: 53%;
             top: 34%;
-        }
+        }        
 
         .security-systems {
             left: 62%;

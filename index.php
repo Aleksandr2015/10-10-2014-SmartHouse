@@ -38,7 +38,7 @@
                     <a href=""><div class="ph-bg-pin multimedia" data-toggle="tooltip" data-placement="left" title="Мультимедия">Мультимедия</div></a>
                     <a href=""><div class="ph-bg-pin fountains-and-ponds" data-toggle="tooltip" data-placement="left" title="Фонтаны и водоемы">Фонтаны и водоемы</div></a>
                     <a href=""><div class="ph-bg-pin ponds-and-controls" data-toggle="tooltip" data-placement="left" title="Пруды и управление">Пруды и управление</div></a>
-                    <a href=""><div class="ph-bg-pin watering-and-irrigation-controls" data-toggle="tooltip" data-placement="left" title="Управление поливом и орошением">Управление поливом и орошением</div></a>
+                    <a href="" class="wide-tooltip"><div class="ph-bg-pin watering-and-irrigation-controls" data-toggle="tooltip" data-placement="left" title="Управление поливом и орошением">Управление поливом и орошением</div></a>
                     <a href=""><div class="ph-bg-pin canalization" data-toggle="tooltip" data-placement="left" title="Канализация">Канализация</div></a>
                     <a href=""><div class="ph-bg-pin water-treatment-system" data-toggle="tooltip" data-placement="left" title="Система водоподготовки">Система водоподготовки</div></a>                    
                     <a href=""><div class="ph-bg-pin batteries" data-toggle="tooltip" data-placement="left" title="Аккумуляторы">Аккумуляторы</div></a>
@@ -48,7 +48,7 @@
                     <a href=""><div class="ph-bg-pin basin-controls" data-toggle="tooltip" data-placement="right" title="Управление бассейном">Управление бассейном</div></a>                    
                     <a href=""><div class="ph-bg-pin electronic-locks" data-toggle="tooltip" data-placement="left" title="Электронные замки">Электронные замки</div></a>                    
                     <a href=""><div class="ph-bg-pin climate-sensors" data-toggle="tooltip" data-placement="left" title="Датчики климата">Датчики климата</div></a>
-                    <a href=""><div class="ph-bg-pin light-sensors" data-toggle="tooltip" data-placement="left" title="Датчики света. Управление светом">Датчики света. Управление светом</div></a>
+                    <a href="" class="wide-tooltip"><div class="ph-bg-pin light-sensors" data-toggle="tooltip" data-placement="left" title="Датчики света. Управление светом">Датчики света. Управление светом</div></a>
                     <a href=""><div class="ph-bg-pin security-systems" data-toggle="tooltip" data-placement="left" title="Системы охраны">Системы охраны</div></a>                    
                     <a href=""><div class="ph-bg-pin smart-santekhnics" data-toggle="tooltip" data-placement="left" title="Умная сантехника">Умная сантехника</div></a>
                     <a href=""><div class="ph-bg-pin control-panel" data-toggle="tooltip" data-placement="left" title="Пульт управления">Пульт управления</div></a>
@@ -64,7 +64,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="<?php echo get_template_directory_uri();?>/js/bootstrap.js"></script>
         <script>
-            $('.ph-bg-pin').tooltip();
+            $('.ph-bg-pin').tooltip();            
         </script>
         <?php wp_footer(); ?>
     </body>
