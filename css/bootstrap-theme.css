@@ -5,97 +5,170 @@
  * Honcharov Aleksandr Stylezed. Website - https://wd.honcharovs.com
  */
 
-/* Homepage bg and pins / start */
+/* Homepage */
+/* - - - -  */
 
+/* Homepage / Start */
 
+/* background image and pins with tooltips */
 .ph-bg-cont {
     position: relative;
 }
 
-.ph-bg-pin {
-    position: absolute;
-    width: 28px;
-    height: 28px;
-    background-image: url(../img/28x28_ph-bg-pin.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: transparent;
-    background-size: 28px 28px;
-    background-attachment: scroll;
-    text-indent: -9999999px;
-}
+    .ph-bg-pin {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        background-image: url(../img/28x28_ph-bg-pin.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: transparent;
+        background-size: 28px 28px;
+        background-attachment: scroll;
+        text-indent: -9999999px;
+    }
 
-.sun-batteries{
-    left: 40%;
-    top: 25%;    
-}
+        .sun-batteries{
+            left: 40%;
+            top: 25%;    
+        }
 
-.condicioner-1 {
-    left: 50%;
-    top: 19%;  
-}
+        .condicioner-1 {
+            left: 50%;
+            top: 19%;  
+        }
 
-.condicioner-2 {
-    left: 57%;
-    top: 31%;
-}
+        .condicioner-2 {
+            left: 57%;
+            top: 31%;
+        }
 
-.videocamera {
-    left: 68%;
-    top: 47%; 
-}
+        .videocamera {
+            left: 68%;
+            top: 47%; 
+        }
 
-.weather-stations {
-    left: 4%;
-    top: 52%; 
-}
+        .weather-stations {
+            left: 4%;
+            top: 52%; 
+        }
 
-.condicioners-and-ventilations {
-    left: 34%;
-    top: 36%; 
-}
+        .condicioners-and-ventilations {
+            left: 34%;
+            top: 36%; 
+        }
 
-.fluger {
-    left: 48%;
-    top: 9%; 
-}
+        .fluger {
+            left: 48%;
+            top: 9%; 
+        }
 
-.electric-rollets-and-shutters {
-    left: 40%;
-    top: 35%;
-}
+        .electric-rollets-and-shutters {
+            left: 40%;
+            top: 35%;
+        }
 
-.multimedia {
-    left: 57%;
-    top: 36%;
-}
+        .multimedia {
+            left: 57%;
+            top: 36%;
+        }
 
-.fountains-and-ponds {
-    left: 77%;
-    top: 48%;
-}
+        .fountains-and-ponds {
+            left: 77%;
+            top: 48%;
+        }
 
-.ponds-and-controls {
-    left: 87%;
-    top: 65%;
-}
+        .ponds-and-controls {
+            left: 87%;
+            top: 65%;
+        }
 
-.watering-and-irrigation-controls {
-    left: 79%;
-    top: 58%;
-}
+        .watering-and-irrigation-controls {
+            left: 79%;
+            top: 58%;
+        }
 
-.canalization {
-    left: 75%;
-    top: 63%;
-}
+        .canalization {
+            left: 75%;
+            top: 63%;
+        }
 
-.water-treatment-system {
-    left: 94%;
-    top: 71%;
-}
+        .water-treatment-system {
+            left: 94%;
+            top: 71%;
+        }
 
-/* Homepage bg and pins / end */
+        .batteries {
+            left: 54.5%;
+            top: 75%;
+        }
+
+        .batteries-2 {
+            left: 38%;
+            top: 72%;
+        }
+
+        .heating-boilers {
+            left: 47%;
+            top: 69%;
+        }
+
+        .boilers {
+            left: 44%;
+            top: 66%;
+        }
+
+        .basin-controls {
+            left: 4.5%;
+            top: 75%;
+        }
+
+        .electronic-locks {
+            left: 35.8%;
+            top: 55%;
+        }
+
+        .climate-sensors {
+            left: 44%;
+            top: 33%;
+        }
+
+        .light-sensors {
+            left: 53%;
+            top: 34%;
+        }
+
+        .security-systems {
+            left: 62%;
+            top: 53%;
+        }
+
+        .smart-santekhnics {
+            left: 51%;
+            top: 52%;
+        }
+
+        .control-panel {
+            left: 46%;
+            top: 52%;
+        }
+
+        .warm-floors {
+            left: 30%;
+            top: 76%;
+        }
+
+        .warm-floors-1 {
+            left: 55%;
+            top: 59%;
+        }
+
+        .septic {
+            left: 71%;
+            top: 73%;
+        }
+
+/* Homepage / End */
 
 .navbar {
     margin-bottom: 0;
