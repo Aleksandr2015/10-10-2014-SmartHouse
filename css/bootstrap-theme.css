@@ -20,8 +20,15 @@ body#homepage {
     background-repeat: no-repeat;    
     background-attachment: scroll;
     background-position: center 34px;
-    background-size: cover;
-        
+    background-size: cover;   
+}
+
+body#page {
+    background-image: url(../img/page-default-bg.png);
+    background-repeat: no-repeat;    
+    background-attachment: scroll;
+    background-position: center -65px;
+    background-size: cover;      
 }
 
     .ph-bg-pin {
