@@ -17,7 +17,7 @@
         <?php wp_head(); ?>  
     </head>
 
-    <body>
+    <body id="homepage">
     
         <!-- Navigation primary / Start -->
         <?php include(TEMPLATEPATH . '/navigation-primary.php'); ?>
@@ -56,7 +56,7 @@
                     <a href=""><div class="ph-bg-pin warm-floors-1" data-toggle="tooltip" data-placement="left" title="Теплые полы">Теплые полы</div></a>
                     <a href=""><div class="ph-bg-pin septic" data-toggle="tooltip" data-placement="left" title="Септик">Септик</div></a>
                     <!-- Background image -->
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri();?>/img/1170x820_page-home-bg.png" alt="">
+                    <img class="img-responsive" style="width:100%;" src="<?php echo get_template_directory_uri();?>/img/page-home-house.png" alt="">
                 </div>
             </div>
         </div>

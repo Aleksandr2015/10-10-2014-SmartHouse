@@ -15,6 +15,15 @@
     position: relative;
 }
 
+body#homepage {
+    background-image: url(../img/page-home-bg.png);
+    background-repeat: no-repeat;    
+    background-attachment: scroll;
+    background-position: center 34px;
+    background-size: cover;
+        
+}
+
     .ph-bg-pin {
         position: absolute;
         width: 28px;
@@ -41,7 +50,7 @@
 
         .condicioner-1 {
             left: 50%;
-            top: 19%;  
+            top: 20%;  
         }
 
         .condicioner-2 {
@@ -56,7 +65,7 @@
 
         .weather-stations {
             left: 4%;
-            top: 52%; 
+            top: 50%; 
         }
 
         .condicioners-and-ventilations {
@@ -66,7 +75,7 @@
 
         .fluger {
             left: 48%;
-            top: 9%; 
+            top: 12%; 
         }
 
         .electric-rollets-and-shutters {
@@ -81,22 +90,22 @@
 
         .fountains-and-ponds {
             left: 77%;
-            top: 48%;
+            top: 46%;
         }
 
         .ponds-and-controls {
             left: 87%;
-            top: 65%;
+            top: 63%;
         }
 
         .watering-and-irrigation-controls {
             left: 79%;
-            top: 58%;
+            top: 56%;
         }
 
         .canalization {
             left: 75%;
-            top: 63%;
+            top: 61%;
         }
 
         .water-treatment-system {
@@ -106,7 +115,7 @@
 
         .batteries {
             left: 54.5%;
-            top: 75%;
+            top: 69%;
         }
 
         .batteries-2 {
@@ -116,17 +125,17 @@
 
         .heating-boilers {
             left: 47%;
-            top: 69%;
+            top: 65%;
         }
 
         .boilers {
             left: 44%;
-            top: 66%;
+            top: 64%;
         }
 
         .basin-controls {
             left: 4.5%;
-            top: 75%;
+            top: 72%;
         }
 
         .electronic-locks {
@@ -161,17 +170,17 @@
 
         .warm-floors {
             left: 30%;
-            top: 76%;
+            top: 72%;
         }
 
         .warm-floors-1 {
             left: 55%;
-            top: 59%;
+            top: 57%;
         }
 
         .septic {
             left: 71%;
-            top: 73%;
+            top: 70%;
         }
 
 /* Homepage / End */
